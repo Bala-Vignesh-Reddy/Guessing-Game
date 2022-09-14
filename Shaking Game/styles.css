@@ -1,0 +1,53 @@
+body {
+    background-color: #E0745D;
+}
+
+#container {
+    background-color: #6F4F49;
+    border: #F5E9E6;
+    height: 280px;
+    width: 750px;
+    margin: 50px auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
+p {
+    color: white;
+    font-size: 24px;
+}
+
+#input {
+    width: 100px;
+    margin: 25px auto;
+}
+
+#outputtext {
+    animation: shake .1s;
+}
+
+#btn {
+    margin: 10px;
+}
+
+.edit {
+    background-color: grey;
+    text-align: center;
+    margin: auto 0;
+}
+
+input:invalid {
+    animation: shake .30s;
+}
+
+@keyframes shake {
+    25% { transform: translateX(4px);}
+    50% { transform: translateX(-4px);}
+    75% { transform: translateX(4px);}
+}
+
+.button {
+    padding: 10px;
+    margin: 50px auto;
+    display: flex;
+}
